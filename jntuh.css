@@ -1,22 +1,98 @@
-td:nth-child(odd){
-    background-color:skyblue;
+*{
+    margin: 0;
+    padding: 0;
+}
+.begin{
+    margin-top: 15px;
+     margin-left: 370px;
+     font-weight: bolder;
+     font-display: BOLD;
+}
+.begin td{
+    width: 180px;
+}
+.zone{
+    margin-top: 8px;
+    margin-left: 370px;
+    margin-right: 0px;
+    font-weight: 500;
+    font-display: BOLD;
+}
 
 
+
+.one{
+    color:black;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 40px;
+    margin-left: -190px;
+    
+
 }
-td:nth-child(even){
-    background-color: powderblue;
+
+.zero{ color:  #008000;
+    margin-left: 340px;
+    font-size: 20px;
+    margin-top: 70px;
+    font-weight: bolder;
+    font-display: BOLD;
 }
-tr:nth-child(1){
-    background-color: skyblue;
+
+
+.second  th {
+    text-align: center;
+    font-size: 10px;
+}
+.second pre{
+    
+    font-weight: bolder;
+}
+.second  th{
+    font-size: x-small;
+    padding: 1px;
+}
+.sectable{
+    width: 200px;
+    height: 100px;
+}
+.second{
+    margin-top: 8px;
+    margin-left: 500px;
+
 }
 pre{
-    color: rgba(4, 175, 4, 0.896);
-    text-align: center;
-    font-size: x-large;
-    font-family:'Times New Roman', Times, serif;
-    margin-top: 100px;
+    font-size: 10px;
+    text-overflow: clip;
+}
+th{
+    margin-top: 2px;
 
 }
-TH:nth-child(1){
-    background-color: skyblue;
+ button {
+    margin-top: 30px;
+    margin-left: 630px;
+    width: 50px;
+    cursor: pointer;
+
+}
+button :hover {
+    background-color: grey;
+}
+.black{
+    background-color: #d6eaf8;
+    font-weight: bolder;
+    font-display: BOLD;
+}
+.blue{
+    background-color: SKYblue;
+    font-weight: bolder;
+    font-display: BOLD;
+}
+.NOTE{
+    font-size: 8px;
+    color: red;
+    margin-left: 70px;
+    margin-top: 10px;
 }
